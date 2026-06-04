@@ -1,0 +1,282 @@
+{
+  "meta": {
+    "title": "Beyond Expertise — Software & AI Editor",
+    "description": "Beyond Expertise builds and publishes AI-native software that turns deep domain expertise into measurable business outcomes. Engineered in Europe, trusted worldwide."
+  },
+  "nav": {
+    "products": "Products",
+    "solutions": "Solutions",
+    "industries": "Industries",
+    "company": "Company",
+    "resources": "Resources",
+    "trust": "Trust",
+    "login": "Log in",
+    "demo": "Book a demo",
+    "menu": "Menu",
+    "close": "Close"
+  },
+  "cta": {
+    "primary": "Book a demo",
+    "secondary": "Explore our products",
+    "contact": "Talk to an expert",
+    "explore": "Explore",
+    "learnMore": "Learn more",
+    "getStarted": "Get started"
+  },
+  "hero": {
+    "badge": "Beyond Expertise — Software & AI editor",
+    "lead": "We publish software & AI that's",
+    "rotating": ["exceptional.", "sovereign.", "high-performing.", "tailor-made."],
+    "subtitle": "Beyond Expertise builds and publishes sovereign software and AI solutions that turn deep domain expertise into measurable outcomes. Engineered in Europe, trusted worldwide.",
+    "ctaPrimary": "Book a demo",
+    "ctaSecondary": "Explore the platform",
+    "stat1": "120+",
+    "stat1Label": "customers across Europe & USA",
+    "stat2": "99.98%",
+    "stat2Label": "platform uptime",
+    "stat3": "4",
+    "stat3Label": "published products"
+  },
+  "logos": {
+    "title": "Trusted by demanding teams across Europe and the United States"
+  },
+  "shift": {
+    "tag": "Our belief",
+    "title": "Expertise is no longer enough. It has to become software.",
+    "body": "Every organization is full of know-how. But that knowledge stays trapped in spreadsheets, manual processes, and the minds of a few experts. Beyond Expertise turns that expertise into intelligent, automated, AI-augmented software — making it scalable, measurable, and durable.",
+    "point1Title": "From people to software",
+    "point1Body": "We codify your best operational practices into robust, scalable products.",
+    "point2Title": "AI-augmented",
+    "point2Body": "Every product embeds generative AI and automation at the core of the experience.",
+    "point3Title": "Sovereign by design",
+    "point3Body": "Your data stays yours. European hosting, native compliance."
+  },
+  "products": {
+    "tag": "Our products",
+    "title": "A suite of AI-native software",
+    "subtitle": "Four products published by Beyond Expertise, designed to work together or on their own.",
+    "items": [
+      {
+        "name": "Nova",
+        "category": "Generative AI",
+        "tagline": "Your teams' AI copilot",
+        "description": "An enterprise AI assistant grounded securely in your internal data: writing, research, synthesis, and autonomous agents.",
+        "features": ["AI assistants & agents", "RAG over your data", "Business connectors", "Fully auditable"]
+      },
+      {
+        "name": "Atlas",
+        "category": "Data & analytics",
+        "tagline": "Intelligence from your data",
+        "description": "A decision-intelligence platform that unifies your data sources and surfaces predictive insights in real time.",
+        "features": ["Real-time dashboards", "Predictive analytics", "Data lakehouse", "Smart alerting"]
+      },
+      {
+        "name": "Orchestra",
+        "category": "Automation",
+        "tagline": "Automate without limits",
+        "description": "Orchestrate your business processes end to end with visual workflows and AI agents that act on your behalf.",
+        "features": ["Visual workflows", "Autonomous agents", "200+ integrations", "No-code execution"]
+      },
+      {
+        "name": "Vault",
+        "category": "Security & governance",
+        "tagline": "Trust at the core",
+        "description": "Unified governance, security, and compliance to control AI and data usage across the entire enterprise.",
+        "features": ["AI governance", "GDPR compliance", "Audit & traceability", "Fine-grained access"]
+      }
+    ]
+  },
+  "capabilities": {
+    "tag": "Capabilities",
+    "title": "Built for the demands of the enterprise",
+    "subtitle": "Four pillars present in every one of our products.",
+    "items": [
+      {
+        "title": "AI-native",
+        "description": "Generative AI and autonomous agents are built into the core, not bolted on afterwards."
+      },
+      {
+        "title": "Automation",
+        "description": "Eliminate repetitive tasks and orchestrate complex processes end to end."
+      },
+      {
+        "title": "Data & analytics",
+        "description": "Unify, analyze, and predict across all of your data sources."
+      },
+      {
+        "title": "Security & sovereignty",
+        "description": "European hosting, encryption, GDPR compliance, and native governance."
+      }
+    ]
+  },
+  "how": {
+    "tag": "How it works",
+    "title": "From expertise to software, in three moves",
+    "steps": [
+      {
+        "step": "01",
+        "title": "Understand",
+        "description": "We analyze your processes, data, and domain know-how to identify the highest-impact levers."
+      },
+      {
+        "step": "02",
+        "title": "Build & publish",
+        "description": "We design and develop the AI-native software, integrating it with your existing systems."
+      },
+      {
+        "step": "03",
+        "title": "Scale",
+        "description": "We deploy, measure, and continuously improve to maximize value and adoption."
+      }
+    ]
+  },
+  "industries": {
+    "tag": "Industries",
+    "title": "Vertical expertise, not generic software",
+    "subtitle": "We publish solutions tailored to the realities of each sector.",
+    "items": [
+      {
+        "name": "Logistics & Supply Chain",
+        "description": "Flow optimization, demand forecasting, and operations automation."
+      },
+      {
+        "name": "Finance & Insurance",
+        "description": "Fraud detection, regulatory compliance, and AI-augmented risk analysis."
+      },
+      {
+        "name": "Healthcare & Life Sciences",
+        "description": "Clinical decision support, document management, and data privacy."
+      },
+      {
+        "name": "Retail & Industry",
+        "description": "Personalization, predictive maintenance, and real-time performance management."
+      }
+    ]
+  },
+  "stats": {
+    "tag": "Outcomes",
+    "title": "Measurable results, not promises",
+    "items": [
+      { "value": "−40%", "label": "of manual tasks automated" },
+      { "value": "3×", "label": "faster to decide" },
+      { "value": "+25%", "label": "team productivity" },
+      { "value": "< 8 wks", "label": "to production" }
+    ]
+  },
+  "testimonial": {
+    "tag": "Trusted by leaders",
+    "quote": "Beyond Expertise turned our operational know-how into a software platform that every team now uses daily. The impact was immediate and measurable.",
+    "author": "Head of Operations",
+    "role": "European industrial group"
+  },
+  "trust": {
+    "tag": "Security & compliance",
+    "title": "Trust is not optional",
+    "subtitle": "Our products are built to the highest standards of security and data sovereignty.",
+    "badges": ["ISO 27001", "SOC 2 Type II", "GDPR", "EU hosting"],
+    "points": [
+      "Data hosted and processed in Europe",
+      "End-to-end encryption at rest and in transit",
+      "Full AI governance and traceability",
+      "Regular security audits and penetration testing"
+    ]
+  },
+  "resources": {
+    "tag": "Resources",
+    "title": "The latest thinking from our experts",
+    "items": [
+      { "category": "Article", "title": "How to turn domain expertise into AI-native software", "readTime": "6 min read" },
+      { "category": "Guide", "title": "Data sovereignty: the guide to enterprise AI in Europe", "readTime": "12 min read" },
+      { "category": "Case study", "title": "−40% manual tasks in the supply chain with Orchestra", "readTime": "4 min read" }
+    ]
+  },
+  "finalCta": {
+    "title": "Let's go beyond expertise, together.",
+    "subtitle": "Let's talk about your challenges and discover how our AI software can transform your organization.",
+    "ctaPrimary": "Book a demo",
+    "ctaSecondary": "Talk to an expert"
+  },
+  "footer": {
+    "tagline": "Software & AI editor. Engineered in Europe, trusted worldwide.",
+    "columns": {
+      "products": "Products",
+      "solutions": "Solutions",
+      "company": "Company",
+      "legal": "Legal & Trust"
+    },
+    "links": {
+      "about": "About",
+      "careers": "Careers",
+      "contact": "Contact",
+      "blog": "Blog",
+      "trust": "Security & compliance",
+      "privacy": "Privacy",
+      "terms": "Terms of service",
+      "cookies": "Cookies"
+    },
+    "rights": "All rights reserved.",
+    "language": "Language"
+  },
+  "pages": {
+    "products": {
+      "hero": {
+        "tag": "Products",
+        "title": "A suite of AI-native software",
+        "subtitle": "Four products published by Beyond Expertise, designed to work together and augment every function."
+      }
+    },
+    "solutions": {
+      "hero": {
+        "tag": "Solutions",
+        "title": "Solutions by need",
+        "subtitle": "We combine our products and expertise to solve your most concrete challenges."
+      },
+      "items": [
+        { "name": "AI & Automation", "description": "Deploy assistants, agents, and intelligent workflows that execute your processes." },
+        { "name": "Data & Decision", "description": "Unify your data and make faster decisions with predictive analytics." },
+        { "name": "Augmented productivity", "description": "Give your teams a secure AI copilot grounded in your internal knowledge." },
+        { "name": "Governance & Compliance", "description": "Control AI and data usage securely, at enterprise scale." }
+      ]
+    },
+    "company": {
+      "hero": {
+        "tag": "Company",
+        "title": "We turn expertise into software",
+        "subtitle": "Beyond Expertise is a Europe-based software and AI editor serving demanding organizations across Europe and the United States."
+      },
+      "missionTitle": "Our mission",
+      "missionBody": "Make expertise scalable. We believe an organization's most valuable know-how shouldn't depend on a few individuals, but live inside intelligent, reliable, sovereign software.",
+      "values": [
+        { "title": "Excellence", "description": "We only ship products we're proud of, down to the smallest detail." },
+        { "title": "Sovereignty", "description": "Your data belongs to you. Trust and compliance sit at the heart of everything." },
+        { "title": "Impact", "description": "We measure our success by the concrete outcomes we create for our customers." },
+        { "title": "Boldness", "description": "Going beyond expertise means daring to rethink what's possible." }
+      ]
+    },
+    "contact": {
+      "hero": {
+        "tag": "Contact",
+        "title": "Let's talk about your project",
+        "subtitle": "Our team replies within 24 hours. Describe your need and we'll come back with concrete next steps."
+      },
+      "form": {
+        "name": "Full name",
+        "email": "Work email",
+        "company": "Company",
+        "message": "Your message",
+        "submit": "Send message",
+        "success": "Thank you! Your message has been sent. We'll get back to you shortly."
+      },
+      "infoTitle": "Other ways to reach us",
+      "email": "contact@beyond-expertise.com",
+      "regions": "Europe & United States"
+    },
+    "trust": {
+      "hero": {
+        "tag": "Security & compliance",
+        "title": "Trust, by design",
+        "subtitle": "Security, privacy, and data sovereignty are the foundation of every product we build."
+      }
+    }
+  }
+}

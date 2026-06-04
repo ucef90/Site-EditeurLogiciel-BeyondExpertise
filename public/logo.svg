@@ -1,0 +1,17 @@
+<svg width="260" height="48" viewBox="0 0 260 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="4" y1="7" x2="44" y2="41" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7B5CFF"/>
+      <stop offset="1" stop-color="#21D4FD"/>
+    </linearGradient>
+    <linearGradient id="gs" x1="4" y1="4" x2="44" y2="44" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7B5CFF" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#21D4FD" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+  <rect x="5" y="5" width="38" height="38" rx="11" fill="url(#gs)"/>
+  <rect x="5" y="5" width="38" height="38" rx="11" stroke="url(#g)" stroke-opacity="0.5" stroke-width="1.2"/>
+  <path d="M15 16 L24 24 L15 32" stroke="url(#g)" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M24 16 L33 24 L24 32" stroke="#0A0A12" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="58" y="29" font-family="'Space Grotesk', system-ui, sans-serif" font-size="18" font-weight="600" letter-spacing="-0.02em" fill="#0A0A12">Beyond <tspan fill="#9CA3AF">Expertise</tspan></text>
+</svg>

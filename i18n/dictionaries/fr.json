@@ -1,0 +1,282 @@
+{
+  "meta": {
+    "title": "Beyond Expertise — Éditeur de logiciels & d'IA",
+    "description": "Beyond Expertise conçoit et édite des logiciels et des solutions d'IA qui transforment l'expertise métier en résultats mesurables. Conçu en Europe, déployé dans le monde entier."
+  },
+  "nav": {
+    "products": "Produits",
+    "solutions": "Solutions",
+    "industries": "Industries",
+    "company": "Entreprise",
+    "resources": "Ressources",
+    "trust": "Confiance",
+    "login": "Connexion",
+    "demo": "Demander une démo",
+    "menu": "Menu",
+    "close": "Fermer"
+  },
+  "cta": {
+    "primary": "Demander une démo",
+    "secondary": "Découvrir nos produits",
+    "contact": "Parler à un expert",
+    "explore": "Explorer",
+    "learnMore": "En savoir plus",
+    "getStarted": "Commencer"
+  },
+  "hero": {
+    "badge": "Beyond Expertise — Éditeur de logiciels & d'IA",
+    "lead": "On édite des logiciels & de l'IA",
+    "rotating": ["d'exception.", "souverains.", "qui performent.", "sur-mesure."],
+    "subtitle": "Beyond Expertise conçoit et édite des logiciels et des solutions d'IA souveraines qui transforment l'expertise métier en résultats mesurables. Conçus en Europe, adoptés dans le monde entier.",
+    "ctaPrimary": "Demander une démo",
+    "ctaSecondary": "Découvrir la plateforme",
+    "stat1": "+120",
+    "stat1Label": "clients en Europe & USA",
+    "stat2": "99,98 %",
+    "stat2Label": "de disponibilité",
+    "stat3": "4",
+    "stat3Label": "produits édités"
+  },
+  "logos": {
+    "title": "La confiance d'équipes exigeantes en Europe et aux États-Unis"
+  },
+  "shift": {
+    "tag": "Notre conviction",
+    "title": "L'expertise ne suffit plus. Elle doit devenir logicielle.",
+    "body": "Les organisations regorgent de savoir-faire. Mais ce savoir reste enfermé dans des tableurs, des processus manuels et la tête de quelques experts. Beyond Expertise transforme cette expertise en logiciels intelligents, automatisés et augmentés par l'IA — pour la rendre scalable, mesurable et durable.",
+    "point1Title": "De l'humain au logiciel",
+    "point1Body": "Nous codifions vos meilleures pratiques métier dans des produits robustes et évolutifs.",
+    "point2Title": "Augmenté par l'IA",
+    "point2Body": "Chaque produit intègre l'IA générative et l'automatisation au cœur de l'expérience.",
+    "point3Title": "Souverain par conception",
+    "point3Body": "Vos données restent les vôtres. Hébergement européen, conformité native."
+  },
+  "products": {
+    "tag": "Nos produits",
+    "title": "Une suite de logiciels IA-natifs",
+    "subtitle": "Quatre produits édités par Beyond Expertise, pensés pour fonctionner ensemble ou séparément.",
+    "items": [
+      {
+        "name": "Nova",
+        "category": "IA générative",
+        "tagline": "Le copilote IA de vos équipes",
+        "description": "Un assistant IA d'entreprise qui s'appuie sur vos données internes en toute sécurité : rédaction, recherche, synthèse et agents autonomes.",
+        "features": ["Assistants & agents IA", "RAG sur vos données", "Connecteurs métier", "100 % traçable"]
+      },
+      {
+        "name": "Atlas",
+        "category": "Données & analytics",
+        "tagline": "L'intelligence de vos données",
+        "description": "Une plateforme d'analyse décisionnelle qui unifie vos sources de données et révèle des insights prédictifs en temps réel.",
+        "features": ["Tableaux de bord temps réel", "Analytique prédictive", "Data lakehouse", "Alerting intelligent"]
+      },
+      {
+        "name": "Orchestra",
+        "category": "Automatisation",
+        "tagline": "Automatisez sans limites",
+        "description": "Orchestrez vos processus métier de bout en bout grâce à des workflows visuels et des agents IA qui agissent pour vous.",
+        "features": ["Workflows visuels", "Agents autonomes", "+200 intégrations", "Exécution sans code"]
+      },
+      {
+        "name": "Vault",
+        "category": "Sécurité & gouvernance",
+        "tagline": "La confiance au cœur",
+        "description": "Gouvernance, sécurité et conformité unifiées pour piloter l'usage de l'IA et des données à l'échelle de l'entreprise.",
+        "features": ["Gouvernance de l'IA", "Conformité RGPD", "Audit & traçabilité", "Contrôle d'accès fin"]
+      }
+    ]
+  },
+  "capabilities": {
+    "tag": "Capacités",
+    "title": "Conçu pour l'exigence de l'entreprise",
+    "subtitle": "Quatre piliers présents dans chacun de nos produits.",
+    "items": [
+      {
+        "title": "IA-native",
+        "description": "L'IA générative et les agents autonomes sont intégrés au cœur, pas ajoutés après coup."
+      },
+      {
+        "title": "Automatisation",
+        "description": "Éliminez les tâches répétitives et orchestrez des processus complexes de bout en bout."
+      },
+      {
+        "title": "Données & analytique",
+        "description": "Unifiez, analysez et prédisez à partir de toutes vos sources de données."
+      },
+      {
+        "title": "Sécurité & souveraineté",
+        "description": "Hébergement européen, chiffrement, conformité RGPD et gouvernance native."
+      }
+    ]
+  },
+  "how": {
+    "tag": "Comment ça marche",
+    "title": "De l'expertise au logiciel, en trois temps",
+    "steps": [
+      {
+        "step": "01",
+        "title": "Comprendre",
+        "description": "Nous analysons vos processus, vos données et votre savoir-faire métier pour identifier les leviers à plus fort impact."
+      },
+      {
+        "step": "02",
+        "title": "Concevoir & éditer",
+        "description": "Nous concevons et développons le logiciel IA-natif, en l'intégrant à votre système d'information existant."
+      },
+      {
+        "step": "03",
+        "title": "Faire évoluer",
+        "description": "Nous déployons, mesurons et améliorons en continu pour maximiser la valeur et l'adoption."
+      }
+    ]
+  },
+  "industries": {
+    "tag": "Industries",
+    "title": "Une expertise verticale, pas générique",
+    "subtitle": "Nous éditons des solutions adaptées aux réalités de chaque secteur.",
+    "items": [
+      {
+        "name": "Logistique & Supply Chain",
+        "description": "Optimisation des flux, prévision de la demande et automatisation des opérations."
+      },
+      {
+        "name": "Finance & Assurance",
+        "description": "Détection de fraude, conformité réglementaire et analyse de risque augmentée par l'IA."
+      },
+      {
+        "name": "Santé & Sciences de la vie",
+        "description": "Aide à la décision clinique, gestion documentaire et confidentialité des données."
+      },
+      {
+        "name": "Retail & Industrie",
+        "description": "Personnalisation, maintenance prédictive et pilotage de la performance en temps réel."
+      }
+    ]
+  },
+  "stats": {
+    "tag": "Résultats",
+    "title": "Des résultats mesurables, pas des promesses",
+    "items": [
+      { "value": "−40 %", "label": "de tâches manuelles automatisées" },
+      { "value": "3×", "label": "plus rapide pour décider" },
+      { "value": "+25 %", "label": "de productivité des équipes" },
+      { "value": "< 8 sem.", "label": "pour la mise en production" }
+    ]
+  },
+  "testimonial": {
+    "tag": "Ils nous font confiance",
+    "quote": "Beyond Expertise a transformé notre savoir-faire opérationnel en une plateforme logicielle que toutes nos équipes utilisent au quotidien. L'impact a été immédiat et mesurable.",
+    "author": "Direction des Opérations",
+    "role": "Groupe industriel européen"
+  },
+  "trust": {
+    "tag": "Sécurité & conformité",
+    "title": "La confiance n'est pas une option",
+    "subtitle": "Nos produits sont conçus selon les plus hauts standards de sécurité et de souveraineté des données.",
+    "badges": ["ISO 27001", "SOC 2 Type II", "RGPD", "Hébergement UE"],
+    "points": [
+      "Hébergement et traitement des données en Europe",
+      "Chiffrement de bout en bout au repos et en transit",
+      "Gouvernance et traçabilité complète de l'IA",
+      "Audits de sécurité et tests d'intrusion réguliers"
+    ]
+  },
+  "resources": {
+    "tag": "Ressources",
+    "title": "Les dernières analyses de nos experts",
+    "items": [
+      { "category": "Article", "title": "Comment transformer l'expertise métier en logiciel IA-natif", "readTime": "6 min de lecture" },
+      { "category": "Guide", "title": "Souveraineté des données : le guide de l'IA d'entreprise en Europe", "readTime": "12 min de lecture" },
+      { "category": "Cas client", "title": "−40 % de tâches manuelles dans la supply chain grâce à Orchestra", "readTime": "4 min de lecture" }
+    ]
+  },
+  "finalCta": {
+    "title": "Allons plus loin, ensemble.",
+    "subtitle": "Échangeons sur vos enjeux et découvrez comment nos logiciels IA peuvent transformer votre organisation.",
+    "ctaPrimary": "Demander une démo",
+    "ctaSecondary": "Parler à un expert"
+  },
+  "footer": {
+    "tagline": "Éditeur de logiciels & d'IA. Conçu en Europe, déployé dans le monde entier.",
+    "columns": {
+      "products": "Produits",
+      "solutions": "Solutions",
+      "company": "Entreprise",
+      "legal": "Légal & Confiance"
+    },
+    "links": {
+      "about": "À propos",
+      "careers": "Carrières",
+      "contact": "Contact",
+      "blog": "Blog",
+      "trust": "Sécurité & conformité",
+      "privacy": "Confidentialité",
+      "terms": "Conditions d'utilisation",
+      "cookies": "Cookies"
+    },
+    "rights": "Tous droits réservés.",
+    "language": "Langue"
+  },
+  "pages": {
+    "products": {
+      "hero": {
+        "tag": "Produits",
+        "title": "Une suite de logiciels IA-natifs",
+        "subtitle": "Quatre produits édités par Beyond Expertise, pensés pour fonctionner ensemble et augmenter chaque métier."
+      }
+    },
+    "solutions": {
+      "hero": {
+        "tag": "Solutions",
+        "title": "Des solutions par besoin",
+        "subtitle": "Nous assemblons nos produits et notre expertise pour répondre à vos enjeux les plus concrets."
+      },
+      "items": [
+        { "name": "IA & Automatisation", "description": "Déployez des assistants, des agents et des workflows intelligents qui exécutent vos processus." },
+        { "name": "Données & Décision", "description": "Unifiez vos données et prenez des décisions plus rapides grâce à l'analytique prédictive." },
+        { "name": "Productivité augmentée", "description": "Donnez à vos équipes un copilote IA sécurisé, ancré dans vos connaissances internes." },
+        { "name": "Gouvernance & Conformité", "description": "Pilotez l'usage de l'IA et des données en toute sécurité, à l'échelle de l'entreprise." }
+      ]
+    },
+    "company": {
+      "hero": {
+        "tag": "Entreprise",
+        "title": "Nous transformons l'expertise en logiciel",
+        "subtitle": "Beyond Expertise est un éditeur de logiciels et d'IA basé en Europe, au service d'organisations exigeantes en Europe et aux États-Unis."
+      },
+      "missionTitle": "Notre mission",
+      "missionBody": "Rendre l'expertise scalable. Nous croyons que le savoir-faire le plus précieux d'une organisation ne devrait pas dépendre de quelques individus, mais vivre dans des logiciels intelligents, fiables et souverains.",
+      "values": [
+        { "title": "Excellence", "description": "Nous ne livrons que des produits dont nous sommes fiers, jusque dans le moindre détail." },
+        { "title": "Souveraineté", "description": "Vos données vous appartiennent. La confiance et la conformité sont au cœur de tout." },
+        { "title": "Impact", "description": "Nous mesurons notre succès aux résultats concrets que nous créons pour nos clients." },
+        { "title": "Audace", "description": "Aller plus loin, c'est oser repenser ce qui est possible." }
+      ]
+    },
+    "contact": {
+      "hero": {
+        "tag": "Contact",
+        "title": "Parlons de votre projet",
+        "subtitle": "Notre équipe vous répond sous 24 h. Décrivez votre besoin, nous reviendrons vers vous avec des pistes concrètes."
+      },
+      "form": {
+        "name": "Nom complet",
+        "email": "E-mail professionnel",
+        "company": "Entreprise",
+        "message": "Votre message",
+        "submit": "Envoyer le message",
+        "success": "Merci ! Votre message a bien été envoyé. Nous vous recontactons rapidement."
+      },
+      "infoTitle": "Autres moyens de nous joindre",
+      "email": "contact@beyond-expertise.com",
+      "regions": "Europe & États-Unis"
+    },
+    "trust": {
+      "hero": {
+        "tag": "Sécurité & conformité",
+        "title": "La confiance, par conception",
+        "subtitle": "La sécurité, la confidentialité et la souveraineté des données sont au fondement de chacun de nos produits."
+      }
+    }
+  }
+}
