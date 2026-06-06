@@ -6,6 +6,48 @@
   --bg: #06060a;
   --bg-soft: #0a0a12;
   --border: rgba(255, 255, 255, 0.08);
+
+  /* v2 hero — premium futuristic palette (accent #5E0ED7) */
+  --background: 0 0% 6%;
+  --foreground: 0 0% 96%;
+  --primary: 263 88% 45%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 0 0% 14%;
+  --secondary-foreground: 0 0% 96%;
+  --muted: 0 0% 16%;
+  --muted-foreground: 0 0% 62%;
+  --accent: 263 88% 45%;
+  --accent-foreground: 0 0% 100%;
+  --ring: 263 88% 45%;
+  --hero-bg: 0 0% 5%;
+  --nav-button: 0 0% 18%;
+}
+
+/* v3 — Sentinel AI theme (vivid green, dark charcoal). Scoped so it never
+   leaks into v1/v2. Applied via the .theme-v3 wrapper on the v3 hero. */
+.theme-v3 {
+  --background: 0 0% 10%;
+  --foreground: 0 0% 96%;
+  --primary: 119 99% 46%;
+  --primary-foreground: 0 0% 4%;
+  --secondary: 0 0% 18%;
+  --secondary-foreground: 0 0% 96%;
+  --muted: 0 0% 16%;
+  --muted-foreground: 0 0% 60%;
+  --accent: 119 99% 46%;
+  --accent-foreground: 0 0% 4%;
+  --destructive: 0 84% 60%;
+  --border: 0 0% 20%;
+  --input: 0 0% 20%;
+  --ring: 119 99% 46%;
+  --nav-button: 0 0% 18%;
+  --hero-bg: 0 0% 8%;
+}
+
+/* When v3 hero is active, hide the global site chrome so the Sentinel
+   navbar stands alone (v3 ships its own brand + nav). */
+[data-hero="v3"] .site-header {
+  display: none;
 }
 
 * {
@@ -133,6 +175,31 @@ body {
     filter: blur(120px);
     will-change: transform;
   }
+
+  /* v2 hero — animated dark cube / tile field */
+  .hero-cubes {
+    background-color: hsl(var(--hero-bg));
+    background-image:
+      linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+      linear-gradient(to right, rgba(255, 255, 255, 0.022) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.022) 1px, transparent 1px);
+    background-size: 76px 76px, 76px 76px, 19px 19px, 19px 19px;
+    background-position: center;
+    will-change: background-position;
+  }
+  /* fake "raised cube" depth: top light, bottom shadow per large tile */
+  .hero-cubes::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(180deg, rgba(255, 255, 255, 0.035), transparent 38%),
+      linear-gradient(0deg, rgba(0, 0, 0, 0.5), transparent 42%);
+    background-size: 76px 76px;
+    mix-blend-mode: overlay;
+    pointer-events: none;
+  }
 }
 
 @keyframes marquee {
@@ -186,6 +253,8 @@ body {
   .animate-shimmer,
   .animate-border-flow,
   .animate-aurora,
+  .animate-cube-pan,
+  .animate-glow-pulse,
   [style*="marquee"] {
     animation: none !important;
   }

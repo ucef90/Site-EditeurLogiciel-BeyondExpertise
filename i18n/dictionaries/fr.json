@@ -37,6 +37,14 @@
     "stat3": "4",
     "stat3Label": "produits édités"
   },
+  "heroV2": {
+    "eyebrow": "Éditeur de logiciels & d'IA",
+    "tagline": "Transformer\nl'expertise en\nlogiciel souverain",
+    "description": "Un studio d'ingénierie créative qui transforme l'expertise métier en logiciels d'IA souverains et marquants.",
+    "cta": "Travaillons ensemble",
+    "heading": ["Au-delà", "De toute", "Expertise"],
+    "imageAlt": "Étoile-ruban de verre abstraite — Beyond Expertise"
+  },
   "logos": {
     "title": "La confiance d'équipes exigeantes en Europe et aux États-Unis"
   },

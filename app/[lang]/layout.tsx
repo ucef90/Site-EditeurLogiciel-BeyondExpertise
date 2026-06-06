@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Space_Grotesk } from "next/font/google";
+import { Inter, Space_Grotesk, Sora } from "next/font/google";
 import "../globals.css";
 import { locales, type Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
@@ -16,6 +16,13 @@ const inter = Inter({
 const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
   variable: "--font-display",
+  display: "swap",
+});
+
+const sora = Sora({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+  variable: "--font-sora",
   display: "swap",
 });
 
@@ -51,7 +58,7 @@ export default async function RootLayout({
   const dict = await getDictionary(params.lang);
 
   return (
-    <html lang={params.lang} className={`${inter.variable} ${spaceGrotesk.variable}`}>
+    <html lang={params.lang} className={`${inter.variable} ${spaceGrotesk.variable} ${sora.variable}`}>
       <body className="font-sans antialiased">
         <div className="noise" />
         <ScrollProgress />

@@ -37,6 +37,14 @@
     "stat3": "4",
     "stat3Label": "published products"
   },
+  "heroV2": {
+    "eyebrow": "Software & AI editor",
+    "tagline": "Shaping bold\nexpertise into\nsovereign software",
+    "description": "A creative engineering studio elevating deep domain expertise into striking, AI-native software.",
+    "cta": "Work with us",
+    "heading": ["Beyond", "Expertise", "Delivered"],
+    "imageAlt": "Abstract glass ribbon star — Beyond Expertise"
+  },
   "logos": {
     "title": "Trusted by demanding teams across Europe and the United States"
   },

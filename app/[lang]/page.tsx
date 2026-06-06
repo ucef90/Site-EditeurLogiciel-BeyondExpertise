@@ -1,6 +1,6 @@
 import { getDictionary } from "@/i18n/dictionaries";
 import type { Locale } from "@/i18n/config";
-import { Hero } from "@/components/sections/Hero";
+import { HeroSwitcher } from "@/components/sections/HeroSwitcher";
 import { Products } from "@/components/sections/Products";
 import {
   LogoBar,
@@ -19,7 +19,7 @@ export default async function HomePage({ params }: { params: { lang: Locale } })
   const dict = await getDictionary(params.lang);
   return (
     <>
-      <Hero dict={dict} lang={params.lang} />
+      <HeroSwitcher dict={dict} lang={params.lang} />
       <LogoBar dict={dict} />
       <Shift dict={dict} />
       <Products dict={dict} />

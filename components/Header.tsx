@@ -35,7 +35,7 @@ export function Header({ dict, lang }: { dict: Dictionary; lang: Locale }) {
 
   return (
     <header
-      className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${
+      className={`site-header fixed inset-x-0 top-0 z-50 transition-all duration-300 ${
         scrolled
           ? "border-b border-white/[0.08] bg-ink-950/80 backdrop-blur-xl"
           : "border-b border-transparent bg-transparent"
