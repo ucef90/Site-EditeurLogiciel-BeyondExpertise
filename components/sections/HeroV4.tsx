@@ -6,6 +6,7 @@ import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { Logo } from "@/components/Logo";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
+import { ThemeToggle } from "@/components/ThemeToggle";
 import type { Dictionary } from "@/i18n/types";
 import type { Locale } from "@/i18n/config";
 
@@ -60,15 +61,18 @@ function Navbar({ dict, lang }: { dict: Dictionary; lang: Locale }) {
         ))}
       </div>
 
-      <div className="hidden items-center gap-3 md:flex">
-        <LanguageSwitcher lang={lang} />
-        <Link
-          href={`/${lang}/contact`}
-          className="rounded-lg px-6 py-2.5 text-xs uppercase tracking-widest text-white transition-all hover:brightness-110 active:scale-[0.97]"
-          style={{ backgroundColor: ACCENT }}
-        >
-          {dict.nav.demo}
-        </Link>
+      <div className="flex items-center gap-3">
+        <ThemeToggle />
+        <div className="hidden items-center gap-3 md:flex">
+          <LanguageSwitcher lang={lang} />
+          <Link
+            href={`/${lang}/contact`}
+            className="rounded-lg px-6 py-2.5 text-xs uppercase tracking-widest text-white transition-all hover:brightness-110 active:scale-[0.97]"
+            style={{ backgroundColor: ACCENT }}
+          >
+            {dict.nav.demo}
+          </Link>
+        </div>
       </div>
     </nav>
   );
