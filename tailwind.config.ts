@@ -18,15 +18,17 @@ const config: Config = {
           DEFAULT: "#0E0E18",
           raised: "#13131F",
         },
+        // Brand accents are CSS-var driven so the whole page can be re-themed
+        // (e.g. green for v3 via html[data-hero="v3"]) without touching markup.
         violet: {
-          glow: "#7B5CFF",
+          glow: "hsl(var(--c-violet) / <alpha-value>)",
         },
         cyan: {
-          glow: "#21D4FD",
+          glow: "hsl(var(--c-cyan) / <alpha-value>)",
         },
         accent: {
-          DEFAULT: "#7B5CFF",
-          soft: "#9D86FF",
+          DEFAULT: "hsl(var(--c-violet) / <alpha-value>)",
+          soft: "hsl(var(--c-accent-soft) / <alpha-value>)",
         },
         // v2 hero — premium futuristic palette (#5E0ED7 accent)
         purplev2: {
@@ -64,16 +66,14 @@ const config: Config = {
         sora: ["var(--font-sora)", "Sora", "sans-serif"],
       },
       backgroundImage: {
-        "brand-gradient":
-          "linear-gradient(135deg, #7B5CFF 0%, #21D4FD 100%)",
-        "brand-radial":
-          "radial-gradient(ellipse 80% 50% at 50% -20%, rgba(123,92,255,0.25), transparent)",
+        "brand-gradient": "var(--grad-brand)",
+        "brand-radial": "var(--grad-brand-radial)",
         "grid-faint":
           "linear-gradient(to right, rgba(255,255,255,0.04) 1px, transparent 1px), linear-gradient(to bottom, rgba(255,255,255,0.04) 1px, transparent 1px)",
       },
       boxShadow: {
-        glow: "0 0 40px -10px rgba(123,92,255,0.45)",
-        "glow-cyan": "0 0 40px -10px rgba(33,212,253,0.4)",
+        glow: "0 0 40px -10px hsl(var(--c-violet) / 0.45)",
+        "glow-cyan": "0 0 40px -10px hsl(var(--c-cyan) / 0.4)",
         card: "0 1px 0 0 rgba(255,255,255,0.06) inset, 0 20px 50px -20px rgba(0,0,0,0.8)",
       },
       keyframes: {

@@ -7,6 +7,18 @@
   --bg-soft: #0a0a12;
   --border: rgba(255, 255, 255, 0.08);
 
+  /* Brand accent palette (HSL channels) — re-themable per hero version.
+     Defaults = Beyond Expertise violet/cyan. */
+  --c-violet: 251 100% 68%;
+  --c-cyan: 191 98% 56%;
+  --c-accent-soft: 251 100% 76%;
+  --grad-brand: linear-gradient(135deg, hsl(var(--c-violet)) 0%, hsl(var(--c-cyan)) 100%);
+  --grad-brand-radial: radial-gradient(
+    ellipse 80% 50% at 50% -20%,
+    hsl(var(--c-violet) / 0.25),
+    transparent
+  );
+
   /* v2 hero — premium futuristic palette (accent #5E0ED7) */
   --background: 0 0% 6%;
   --foreground: 0 0% 96%;
@@ -44,10 +56,32 @@
   --hero-bg: 0 0% 8%;
 }
 
-/* When v3 hero is active, hide the global site chrome so the Sentinel
-   navbar stands alone (v3 ships its own brand + nav). */
+/* When v3 hero is active, hide the global site chrome so the v3
+   navbar stands alone (it ships its own brand + nav). */
 [data-hero="v3"] .site-header {
   display: none;
+}
+
+/* v3 page-wide re-skin: every section below the hero adopts the v3 charter
+   (vivid-green accents + Sora font + charcoal base). Only the brand CSS vars
+   and font vars are remapped, so all existing markup re-themes automatically.
+   `html[...]` outranks the next/font class that sets --font-sans. */
+html[data-hero="v3"] {
+  --c-violet: 119 99% 46%;
+  --c-cyan: 146 80% 52%;
+  --c-accent-soft: 119 90% 62%;
+  --grad-brand: linear-gradient(135deg, hsl(119 99% 46%) 0%, hsl(150 84% 50%) 100%);
+  --grad-brand-radial: radial-gradient(
+    ellipse 80% 50% at 50% -20%,
+    hsl(119 99% 46% / 0.2),
+    transparent
+  );
+  /* swap typography to the v3 typeface everywhere */
+  --font-sans: var(--font-sora);
+  --font-display: var(--font-sora);
+  /* slightly lighter charcoal base to match the v3 hero */
+  --bg: #0f0f0f;
+  --bg-soft: #141414;
 }
 
 * {
@@ -68,7 +102,7 @@ body {
 
 @layer base {
   ::selection {
-    background: rgba(123, 92, 255, 0.35);
+    background: hsl(var(--c-violet) / 0.35);
     color: #fff;
   }
 
@@ -88,7 +122,12 @@ body {
 
   .gradient-text {
     @apply bg-clip-text text-transparent;
-    background-image: linear-gradient(120deg, #ffffff 0%, #c9bfff 40%, #21d4fd 100%);
+    background-image: linear-gradient(
+      120deg,
+      #ffffff 0%,
+      hsl(var(--c-accent-soft)) 40%,
+      hsl(var(--c-cyan)) 100%
+    );
   }
 
   .accent-text {
@@ -107,16 +146,16 @@ body {
 
   .card-bx:hover {
     @apply border-white/[0.16] bg-white/[0.04];
-    box-shadow: 0 20px 60px -30px rgba(123, 92, 255, 0.5);
+    box-shadow: 0 20px 60px -30px hsl(var(--c-violet) / 0.5);
   }
 
   .btn-primary {
     @apply relative inline-flex items-center justify-center gap-2 rounded-full bg-brand-gradient px-6 py-3 text-sm font-semibold text-white transition-all duration-300;
-    box-shadow: 0 8px 30px -8px rgba(123, 92, 255, 0.6);
+    box-shadow: 0 8px 30px -8px hsl(var(--c-violet) / 0.6);
   }
 
   .btn-primary:hover {
-    box-shadow: 0 12px 40px -8px rgba(123, 92, 255, 0.8);
+    box-shadow: 0 12px 40px -8px hsl(var(--c-violet) / 0.8);
     transform: translateY(-1px);
   }
 
@@ -160,7 +199,7 @@ body {
     transition: opacity 0.35s ease;
     background: radial-gradient(
       340px circle at var(--mx, 50%) var(--my, 0%),
-      rgba(123, 92, 255, 0.18),
+      hsl(var(--c-violet) / 0.18),
       transparent 60%
     );
   }
