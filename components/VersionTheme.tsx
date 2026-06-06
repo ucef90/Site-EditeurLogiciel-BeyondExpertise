@@ -3,8 +3,8 @@
 import { useEffect } from "react";
 
 const STORAGE_KEY = "bx-hero-version";
-const DEFAULT = "v4";
-const VALID = ["v1", "v2", "v3", "v4"];
+const DEFAULT = "v4"; // light
+const VALID = ["v3", "v4"]; // v3 = dark, v4 = light
 
 /**
  * Applies the selected hero version as `data-theme` on <html> for EVERY page,
