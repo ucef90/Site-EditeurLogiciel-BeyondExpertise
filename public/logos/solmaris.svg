@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 48" fill="none">
+  <circle cx="22" cy="18" r="6.5" fill="#939AA3"/>
+  <g stroke="#939AA3" stroke-width="2.4" stroke-linecap="round" fill="none">
+    <path d="M10 30 q6 -6 12 0 t12 0"/>
+    <path d="M10 36 q6 -6 12 0 t12 0"/>
+  </g>
+  <text x="50" y="25" font-family="'Segoe UI',Arial,sans-serif" font-size="21" font-weight="400" letter-spacing="1.5" fill="#939AA3" dominant-baseline="middle">Solmaris</text>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 215 48" fill="none">
+  <g stroke="#939AA3" stroke-width="2.2" fill="none">
+    <circle cx="24" cy="24" r="14"/>
+    <ellipse cx="24" cy="24" rx="6" ry="14"/>
+    <line x1="10" y1="24" x2="38" y2="24"/>
+  </g>
+  <text x="52" y="25" font-family="'Segoe UI',Arial,sans-serif" font-size="21" font-weight="500" letter-spacing="1.5" fill="#939AA3" dominant-baseline="middle">Meridian</text>
+</svg>

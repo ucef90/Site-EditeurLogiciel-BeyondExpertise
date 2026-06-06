@@ -21,7 +21,16 @@ import type { Locale } from "@/i18n/config";
 
 /* ---------------- Logo bar ---------------- */
 export function LogoBar({ dict }: { dict: Dictionary }) {
-  const names = ["NORDA", "Lumenis", "Vectra", "Helios", "Quantor", "Meridian", "Abuilt", "Solmaris"];
+  const logos = [
+    { name: "NORDA", src: "/logos/norda.svg" },
+    { name: "Lumenis", src: "/logos/lumenis.svg" },
+    { name: "Vectra", src: "/logos/vectra.svg" },
+    { name: "Helios", src: "/logos/helios.svg" },
+    { name: "Quantor", src: "/logos/quantor.svg" },
+    { name: "Meridian", src: "/logos/meridian.svg" },
+    { name: "Abuilt", src: "/logos/abuilt.svg" },
+    { name: "Solmaris", src: "/logos/solmaris.svg" },
+  ];
   const keywords = [
     ...dict.products.items.map((p) => p.name),
     ...dict.capabilities.items.map((c) => c.title),
@@ -35,13 +44,14 @@ export function LogoBar({ dict }: { dict: Dictionary }) {
       </div>
 
       <Marquee className="mt-8" speed={42}>
-        {names.map((n) => (
-          <span
-            key={n}
-            className="font-display text-2xl font-semibold text-white/20 transition-colors hover:text-white/60"
-          >
-            {n}
-          </span>
+        {logos.map((l) => (
+          /* eslint-disable-next-line @next/next/no-img-element */
+          <img
+            key={l.name}
+            src={l.src}
+            alt={l.name}
+            className="h-7 w-auto opacity-50 transition-opacity duration-300 hover:opacity-90"
+          />
         ))}
       </Marquee>
 

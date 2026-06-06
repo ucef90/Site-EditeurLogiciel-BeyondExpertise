@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 48" fill="none">
+  <g stroke="#939AA3" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M12 14 L22 24 L12 34"/>
+    <path d="M24 14 L34 24 L24 34"/>
+  </g>
+  <text x="48" y="25" font-family="'Segoe UI',Arial,sans-serif" font-size="22" font-weight="800" letter-spacing="1" fill="#939AA3" dominant-baseline="middle">VECTRA</text>
+</svg>
