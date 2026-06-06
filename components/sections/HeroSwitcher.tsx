@@ -4,11 +4,12 @@ import { useEffect, useState } from "react";
 import { Hero } from "@/components/sections/Hero";
 import { HeroV2 } from "@/components/sections/HeroV2";
 import { HeroV3 } from "@/components/sections/HeroV3";
+import { HeroV4 } from "@/components/sections/HeroV4";
 import type { Dictionary } from "@/i18n/types";
 import type { Locale } from "@/i18n/config";
 
-type Version = "v1" | "v2" | "v3";
-const VERSIONS: Version[] = ["v1", "v2", "v3"];
+type Version = "v1" | "v2" | "v3" | "v4";
+const VERSIONS: Version[] = ["v1", "v2", "v3", "v4"];
 const STORAGE_KEY = "bx-hero-version";
 
 /**
@@ -16,11 +17,12 @@ const STORAGE_KEY = "bx-hero-version";
  * switch to compare them live.
  *   v1 = original Beyond Expertise hero
  *   v2 = premium futuristic hero (purple, glass star)
- *   v3 = "Sentinel AI" security hero (green, Spline 3D)
- * The choice is persisted in localStorage. Defaults to v3 (newest).
+ *   v3 = futuristic hero (green, Spline 3D, dark)
+ *   v4 = light-mode transformation of v3 (warm off-white, emerald)
+ * The choice is persisted in localStorage. Defaults to v4 (newest).
  */
 export function HeroSwitcher({ dict, lang }: { dict: Dictionary; lang: Locale }) {
-  const [version, setVersion] = useState<Version>("v3");
+  const [version, setVersion] = useState<Version>("v4");
 
   // hydrate from localStorage after mount (SSR renders the default first)
   useEffect(() => {
@@ -42,7 +44,9 @@ export function HeroSwitcher({ dict, lang }: { dict: Dictionary; lang: Locale })
 
   return (
     <>
-      {version === "v3" ? (
+      {version === "v4" ? (
+        <HeroV4 dict={dict} lang={lang} />
+      ) : version === "v3" ? (
         <HeroV3 dict={dict} lang={lang} />
       ) : version === "v2" ? (
         <HeroV2 dict={dict} lang={lang} />
@@ -67,7 +71,14 @@ export function HeroSwitcher({ dict, lang }: { dict: Dictionary; lang: Locale })
               className={`rounded-full px-4 py-1.5 transition-colors ${
                 active ? "text-white" : "text-white/55 hover:text-white/80"
               }`}
-              style={active ? { backgroundColor: v === "v3" ? "#13f000" : "#5E0ED7" } : undefined}
+              style={
+                active
+                  ? {
+                      backgroundColor: { v1: "#5E0ED7", v2: "#5E0ED7", v3: "#13f000", v4: "#0E8F3C" }[v],
+                      color: "#fff",
+                    }
+                  : undefined
+              }
             >
               {v}
             </button>

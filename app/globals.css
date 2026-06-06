@@ -56,9 +56,10 @@
   --hero-bg: 0 0% 8%;
 }
 
-/* When v3 hero is active, hide the global site chrome so the v3
-   navbar stands alone (it ships its own brand + nav). */
-[data-hero="v3"] .site-header {
+/* When v3/v4 hero is active, hide the global site chrome so the version's
+   own navbar stands alone (each ships its own brand + nav). */
+[data-hero="v3"] .site-header,
+[data-hero="v4"] .site-header {
   display: none;
 }
 
@@ -82,6 +83,116 @@ html[data-hero="v3"] {
   /* slightly lighter charcoal base to match the v3 hero */
   --bg: #0f0f0f;
   --bg-soft: #141414;
+}
+
+/* =====================================================================
+   v4 — LIGHT-mode transformation of v3. Premium "editorial luxury":
+   warm off-white base, charcoal type, refined emerald accent, Sora.
+   The hero (HeroV4) styles itself; this re-skins the sections below by
+   remapping CSS vars + the dark neutral utilities, scoped to v4 only.
+   ===================================================================== */
+html[data-hero="v4"] {
+  --c-violet: 140 82% 31%;
+  --c-cyan: 158 70% 36%;
+  --c-accent-soft: 140 70% 38%;
+  --grad-brand: linear-gradient(135deg, hsl(140 82% 31%) 0%, hsl(158 72% 40%) 100%);
+  --grad-brand-radial: radial-gradient(
+    ellipse 80% 50% at 50% -20%,
+    hsl(140 82% 31% / 0.12),
+    transparent
+  );
+  --font-sans: var(--font-sora);
+  --font-display: var(--font-sora);
+  /* warm off-white base + dark hairline */
+  --bg: #f6f4ef;
+  --bg-soft: #efece5;
+  --border: rgba(20, 20, 25, 0.1);
+}
+html[data-hero="v4"] body {
+  color: #15161a;
+}
+
+/* foreground text scale (white-on-dark → charcoal-on-light) */
+html[data-hero="v4"] .text-white {
+  color: #15161a;
+}
+html[data-hero="v4"] .text-white\/90,
+html[data-hero="v4"] .text-white\/80,
+html[data-hero="v4"] .text-white\/75 {
+  color: #2c2f36;
+}
+html[data-hero="v4"] .text-white\/70,
+html[data-hero="v4"] .text-white\/65,
+html[data-hero="v4"] .text-white\/60,
+html[data-hero="v4"] .text-white\/55,
+html[data-hero="v4"] .text-white\/50 {
+  color: #565a62;
+}
+html[data-hero="v4"] .text-white\/45,
+html[data-hero="v4"] .text-white\/40,
+html[data-hero="v4"] .text-white\/35,
+html[data-hero="v4"] .text-white\/30,
+html[data-hero="v4"] .text-white\/20 {
+  color: #898e96;
+}
+
+/* hairline borders */
+html[data-hero="v4"] .border-white\/10,
+html[data-hero="v4"] .border-white\/\[0\.08\],
+html[data-hero="v4"] .border-white\/\[0\.07\],
+html[data-hero="v4"] .border-white\/\[0\.06\] {
+  border-color: rgba(20, 20, 25, 0.1);
+}
+html[data-hero="v4"] .border-white\/15,
+html[data-hero="v4"] .border-white\/20,
+html[data-hero="v4"] .border-white\/30,
+html[data-hero="v4"] .border-white\/40,
+html[data-hero="v4"] .border-white\/\[0\.16\] {
+  border-color: rgba(20, 20, 25, 0.16);
+}
+
+/* elevated surface tints → soft white cards over the cream base */
+html[data-hero="v4"] .bg-white\/\[0\.02\],
+html[data-hero="v4"] .bg-white\/\[0\.03\],
+html[data-hero="v4"] .bg-white\/\[0\.04\],
+html[data-hero="v4"] .bg-white\/\[0\.05\],
+html[data-hero="v4"] .bg-white\/\[0\.06\],
+html[data-hero="v4"] .bg-white\/\[0\.07\],
+html[data-hero="v4"] .bg-white\/\[0\.08\],
+html[data-hero="v4"] .bg-white\/5 {
+  background-color: rgba(255, 255, 255, 0.72);
+}
+html[data-hero="v4"] .bg-white\/10,
+html[data-hero="v4"] .bg-white\/20 {
+  background-color: rgba(20, 20, 25, 0.05);
+}
+
+/* dark section backgrounds → light */
+html[data-hero="v4"] .bg-ink-950 {
+  background-color: #f6f4ef;
+}
+html[data-hero="v4"] .bg-ink-950\/80 {
+  background-color: rgba(246, 244, 239, 0.8);
+}
+html[data-hero="v4"] .bg-ink-950\/95 {
+  background-color: rgba(246, 244, 239, 0.95);
+}
+html[data-hero="v4"] .bg-ink-950\/60 {
+  background-color: rgba(246, 244, 239, 0.6);
+}
+
+/* glass surfaces */
+html[data-hero="v4"] .glass {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+/* keep white text on accent-filled buttons (must outrank .text-white above) */
+html[data-hero="v4"] .btn-primary {
+  color: #ffffff;
+}
+html[data-hero="v4"] .btn-primary,
+html[data-hero="v4"] .card-bx:hover {
+  box-shadow: 0 18px 50px -24px hsl(var(--c-violet) / 0.45);
 }
 
 * {
