@@ -34,7 +34,7 @@
     "stat1Label": "customers across Europe & USA",
     "stat2": "99.98%",
     "stat2Label": "platform uptime",
-    "stat3": "10",
+    "stat3": "11",
     "stat3Label": "published products"
   },
   "heroV2": {
@@ -62,77 +62,135 @@
   "products": {
     "tag": "Our products",
     "title": "A suite of AI-native software",
-    "subtitle": "Ten products published by Beyond Expertise, spanning every domain and designed to work together or on their own.",
+    "subtitle": "Eleven products published by Beyond Expertise, spanning every domain and designed to work together or on their own.",
+    "detail": {
+      "overviewTitle": "Overview",
+      "capabilitiesTitle": "Key capabilities",
+      "back": "All products",
+      "visit": "Visit the website",
+      "cta": "Book a demo"
+    },
     "items": [
       {
         "name": "Nova",
         "category": "Generative AI",
         "tagline": "Your teams' AI copilot",
         "description": "An enterprise AI assistant grounded securely in your internal data: writing, research, synthesis, and autonomous agents.",
-        "features": ["AI assistants & agents", "RAG over your data", "Business connectors", "Fully auditable"]
+        "features": ["AI assistants & agents", "RAG over your data", "Business connectors", "Fully auditable"],
+        "slug": "nova",
+        "external": false,
+        "url": "",
+        "overview": "Nova plugs securely into your internal knowledge — documents, databases, and business tools — so teams can draft, research, summarize, and automate with autonomous agents. Every answer stays grounded in your data, permission-aware, and fully auditable."
       },
       {
         "name": "Atlas",
         "category": "Data & analytics",
         "tagline": "Intelligence from your data",
         "description": "A decision-intelligence platform that unifies your data sources and surfaces predictive insights in real time.",
-        "features": ["Real-time dashboards", "Predictive analytics", "Data lakehouse", "Smart alerting"]
+        "features": ["Real-time dashboards", "Predictive analytics", "Data lakehouse", "Smart alerting"],
+        "slug": "atlas",
+        "external": false,
+        "url": "",
+        "overview": "Atlas unifies your scattered data sources into a single decision-intelligence layer with real-time dashboards, predictive models, and smart alerting. Turn raw data into decisions you can act on in seconds, without a data-engineering bottleneck."
       },
       {
         "name": "Orchestra",
         "category": "Automation",
         "tagline": "Automate without limits",
         "description": "Orchestrate your business processes end to end with visual workflows and AI agents that act on your behalf.",
-        "features": ["Visual workflows", "Autonomous agents", "200+ integrations", "No-code execution"]
+        "features": ["Visual workflows", "Autonomous agents", "200+ integrations", "No-code execution"],
+        "slug": "orchestra",
+        "external": false,
+        "url": "",
+        "overview": "Orchestra automates business processes end to end, combining visual no-code workflows with autonomous AI agents that execute across 200+ systems. Remove repetitive work and run complex operations with full visibility and control."
       },
       {
         "name": "Vault",
         "category": "Security & governance",
         "tagline": "Trust at the core",
         "description": "Unified governance, security, and compliance to control AI and data usage across the entire enterprise.",
-        "features": ["AI governance", "GDPR compliance", "Audit & traceability", "Fine-grained access"]
+        "features": ["AI governance", "GDPR compliance", "Audit & traceability", "Fine-grained access"],
+        "slug": "vault",
+        "external": false,
+        "url": "",
+        "overview": "Vault is the governance, security, and compliance layer for AI and data across your enterprise. Enforce policies, demonstrate EU AI Act and GDPR compliance, and keep an immutable audit trail over every model, dataset, and access."
       },
       {
         "name": "Flux",
         "category": "Supply chain & logistics",
         "tagline": "Plan, predict, deliver",
         "description": "AI-driven supply chain planning that forecasts demand, optimizes inventory, and orchestrates warehouse and transport flows end to end.",
-        "features": ["Demand forecasting", "Inventory optimization", "WMS & TMS orchestration", "Scenario planning"]
+        "features": ["Demand forecasting", "Inventory optimization", "WMS & TMS orchestration", "Scenario planning"],
+        "slug": "flux",
+        "external": false,
+        "url": "",
+        "overview": "Flux brings AI to your entire supply chain — forecasting demand, optimizing inventory, and orchestrating warehouse and transport flows. Plan with confidence, absorb disruptions in real time, and cut stockouts and overstock at the same time."
       },
       {
         "name": "Ledger",
         "category": "Finance & risk",
         "tagline": "Finance that defends itself",
         "description": "Real-time fraud detection, AML/KYC, and risk intelligence that keep financial operations compliant and secure at scale.",
-        "features": ["Fraud detection", "AML & KYC", "Risk analytics", "Regulatory reporting"]
+        "features": ["Fraud detection", "AML & KYC", "Risk analytics", "Regulatory reporting"],
+        "slug": "ledger",
+        "external": false,
+        "url": "",
+        "overview": "Ledger protects financial operations with real-time fraud detection, automated AML/KYC, and continuous risk intelligence. Stay ahead of evolving regulation while stopping fraud before it settles."
       },
       {
         "name": "Pulse",
         "category": "Healthcare & life sciences",
         "tagline": "Care, augmented",
         "description": "Clinical decision support and document intelligence that turn medical data into safer, faster, privacy-first care.",
-        "features": ["Clinical decision support", "Claims & document AI", "Patient data privacy", "Predictive insights"]
+        "features": ["Clinical decision support", "Claims & document AI", "Patient data privacy", "Predictive insights"],
+        "slug": "pulse",
+        "external": false,
+        "url": "",
+        "overview": "Pulse augments clinical and operational teams with decision support and document intelligence, turning records, claims, and imaging into faster, safer care. Data sovereignty and patient privacy are built in by design."
       },
       {
         "name": "Forge",
         "category": "Industry & manufacturing",
         "tagline": "Zero unplanned downtime",
         "description": "Predictive maintenance, computer-vision quality control, and real-time performance management for connected factories.",
-        "features": ["Predictive maintenance", "Computer-vision QC", "Real-time OEE", "IoT integration"]
+        "features": ["Predictive maintenance", "Computer-vision QC", "Real-time OEE", "IoT integration"],
+        "slug": "forge",
+        "external": false,
+        "url": "",
+        "overview": "Forge connects the factory floor to predict failures before they happen, inspect quality with computer vision, and manage performance in real time. Maximize OEE and move toward zero unplanned downtime."
       },
       {
         "name": "Prism",
         "category": "Commerce & retail",
         "tagline": "Personalize at scale",
         "description": "A personalization and merchandising engine that tailors every experience, optimizes pricing, and balances stock in real time.",
-        "features": ["Recommendation engine", "Dynamic pricing", "Inventory optimization", "Customer 360"]
+        "features": ["Recommendation engine", "Dynamic pricing", "Inventory optimization", "Customer 360"],
+        "slug": "prism",
+        "external": false,
+        "url": "",
+        "overview": "Prism personalizes every customer touchpoint and optimizes merchandising in real time. Recommendation, dynamic pricing, and inventory intelligence work together to lift conversion, basket size, and margin."
       },
       {
         "name": "Helix",
         "category": "People & workforce",
         "tagline": "Your workforce, intelligently managed",
         "description": "Unified HR, payroll, and skills intelligence to plan, develop, and retain talent across the entire organization.",
-        "features": ["HR & payroll", "Skills intelligence", "Workforce planning", "Talent retention"]
+        "features": ["HR & payroll", "Skills intelligence", "Workforce planning", "Talent retention"],
+        "slug": "helix",
+        "external": false,
+        "url": "",
+        "overview": "Helix unifies HR, payroll, and skills intelligence into one workforce platform. Plan headcount, develop talent, and anticipate attrition with data — so people decisions are as rigorous as financial ones."
+      },
+      {
+        "name": "Scorify",
+        "category": "Recruitment & AI hiring",
+        "tagline": "Smart hiring, zero spreadsheets",
+        "description": "An AI hiring platform that turns 40 hours of CV screening into 10 minutes: upload CVs in bulk, score and rank candidates against your criteria, and generate tailored interview questions.",
+        "features": ["AI CV scoring", "Bulk upload", "Ranked shortlists", "All-in-one workflow"],
+        "slug": "scorify",
+        "external": true,
+        "url": "https://thescorify.com",
+        "overview": "Scorify is an AI-powered hiring platform for lean teams. Upload CVs in bulk, let AI score and rank every applicant against your job criteria in seconds, auto-generate interview questions, and collaborate — smart hiring with zero spreadsheets."
       }
     ]
   },
@@ -272,7 +330,7 @@
       "hero": {
         "tag": "Products",
         "title": "A suite of AI-native software",
-        "subtitle": "Ten products published by Beyond Expertise, designed to work together and augment every function."
+        "subtitle": "Eleven products published by Beyond Expertise, designed to work together and augment every function."
       }
     },
     "solutions": {

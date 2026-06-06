@@ -22,7 +22,7 @@ export default async function HomePage({ params }: { params: { lang: Locale } })
       <HeroSwitcher dict={dict} lang={params.lang} />
       <LogoBar dict={dict} />
       <Shift dict={dict} />
-      <Products dict={dict} />
+      <Products dict={dict} lang={params.lang} />
       <Capabilities dict={dict} />
       <HowItWorks dict={dict} />
       <Industries dict={dict} />

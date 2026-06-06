@@ -34,7 +34,7 @@
     "stat1Label": "clients en Europe & USA",
     "stat2": "99,98 %",
     "stat2Label": "de disponibilité",
-    "stat3": "10",
+    "stat3": "11",
     "stat3Label": "produits édités"
   },
   "heroV2": {
@@ -62,77 +62,135 @@
   "products": {
     "tag": "Nos produits",
     "title": "Une suite de logiciels IA-natifs",
-    "subtitle": "Dix produits édités par Beyond Expertise, couvrant tous les domaines et pensés pour fonctionner ensemble ou séparément.",
+    "subtitle": "Onze produits édités par Beyond Expertise, couvrant tous les domaines et pensés pour fonctionner ensemble ou séparément.",
+    "detail": {
+      "overviewTitle": "Présentation",
+      "capabilitiesTitle": "Capacités clés",
+      "back": "Tous les produits",
+      "visit": "Visiter le site",
+      "cta": "Demander une démo"
+    },
     "items": [
       {
         "name": "Nova",
         "category": "IA générative",
         "tagline": "Le copilote IA de vos équipes",
         "description": "Un assistant IA d'entreprise qui s'appuie sur vos données internes en toute sécurité : rédaction, recherche, synthèse et agents autonomes.",
-        "features": ["Assistants & agents IA", "RAG sur vos données", "Connecteurs métier", "100 % traçable"]
+        "features": ["Assistants & agents IA", "RAG sur vos données", "Connecteurs métier", "100 % traçable"],
+        "slug": "nova",
+        "external": false,
+        "url": "",
+        "overview": "Nova se connecte en toute sécurité à votre savoir interne — documents, bases de données et outils métier — pour rédiger, rechercher, synthétiser et automatiser via des agents autonomes. Chaque réponse reste ancrée dans vos données, respecte les habilitations et reste 100 % traçable."
       },
       {
         "name": "Atlas",
         "category": "Données & analytics",
         "tagline": "L'intelligence de vos données",
         "description": "Une plateforme d'analyse décisionnelle qui unifie vos sources de données et révèle des insights prédictifs en temps réel.",
-        "features": ["Tableaux de bord temps réel", "Analytique prédictive", "Data lakehouse", "Alerting intelligent"]
+        "features": ["Tableaux de bord temps réel", "Analytique prédictive", "Data lakehouse", "Alerting intelligent"],
+        "slug": "atlas",
+        "external": false,
+        "url": "",
+        "overview": "Atlas unifie vos sources de données dispersées en une couche unique d'intelligence décisionnelle : tableaux de bord temps réel, modèles prédictifs et alerting intelligent. Transformez la donnée brute en décisions actionnables en quelques secondes, sans goulot d'étranglement data."
       },
       {
         "name": "Orchestra",
         "category": "Automatisation",
         "tagline": "Automatisez sans limites",
         "description": "Orchestrez vos processus métier de bout en bout grâce à des workflows visuels et des agents IA qui agissent pour vous.",
-        "features": ["Workflows visuels", "Agents autonomes", "+200 intégrations", "Exécution sans code"]
+        "features": ["Workflows visuels", "Agents autonomes", "+200 intégrations", "Exécution sans code"],
+        "slug": "orchestra",
+        "external": false,
+        "url": "",
+        "overview": "Orchestra automatise vos processus de bout en bout en combinant des workflows visuels sans code et des agents IA qui exécutent les tâches sur plus de 200 systèmes. Supprimez les tâches répétitives et pilotez des opérations complexes en gardant visibilité et contrôle."
       },
       {
         "name": "Vault",
         "category": "Sécurité & gouvernance",
         "tagline": "La confiance au cœur",
         "description": "Gouvernance, sécurité et conformité unifiées pour piloter l'usage de l'IA et des données à l'échelle de l'entreprise.",
-        "features": ["Gouvernance de l'IA", "Conformité RGPD", "Audit & traçabilité", "Contrôle d'accès fin"]
+        "features": ["Gouvernance de l'IA", "Conformité RGPD", "Audit & traçabilité", "Contrôle d'accès fin"],
+        "slug": "vault",
+        "external": false,
+        "url": "",
+        "overview": "Vault est la couche de gouvernance, de sécurité et de conformité pour l'IA et les données de toute l'entreprise. Appliquez vos politiques, démontrez la conformité à l'EU AI Act et au RGPD, et conservez une piste d'audit immuable sur chaque modèle, jeu de données et accès."
       },
       {
         "name": "Flux",
         "category": "Supply chain & logistique",
         "tagline": "Planifier, prévoir, livrer",
         "description": "Une planification de la supply chain pilotée par l'IA qui prévoit la demande, optimise les stocks et orchestre les flux entrepôt et transport de bout en bout.",
-        "features": ["Prévision de la demande", "Optimisation des stocks", "Orchestration WMS & TMS", "Planification par scénarios"]
+        "features": ["Prévision de la demande", "Optimisation des stocks", "Orchestration WMS & TMS", "Planification par scénarios"],
+        "slug": "flux",
+        "external": false,
+        "url": "",
+        "overview": "Flux apporte l'IA à toute votre supply chain — prévision de la demande, optimisation des stocks et orchestration des flux entrepôt et transport. Planifiez sereinement, absorbez les aléas en temps réel et réduisez ruptures et surstocks à la fois."
       },
       {
         "name": "Ledger",
         "category": "Finance & risque",
         "tagline": "Une finance qui se défend",
         "description": "Détection de fraude en temps réel, LCB-FT/KYC et intelligence des risques pour des opérations financières conformes et sécurisées à grande échelle.",
-        "features": ["Détection de fraude", "LCB-FT & KYC", "Analyse des risques", "Reporting réglementaire"]
+        "features": ["Détection de fraude", "LCB-FT & KYC", "Analyse des risques", "Reporting réglementaire"],
+        "slug": "ledger",
+        "external": false,
+        "url": "",
+        "overview": "Ledger protège les opérations financières grâce à la détection de fraude en temps réel, au LCB-FT/KYC automatisé et à une intelligence des risques continue. Gardez une longueur d'avance sur la réglementation tout en stoppant la fraude avant qu'elle n'aboutisse."
       },
       {
         "name": "Pulse",
         "category": "Santé & sciences du vivant",
         "tagline": "Le soin, augmenté",
         "description": "Aide à la décision clinique et intelligence documentaire qui transforment les données médicales en soins plus sûrs, plus rapides et respectueux de la vie privée.",
-        "features": ["Aide à la décision clinique", "IA documents & remboursements", "Confidentialité patient", "Insights prédictifs"]
+        "features": ["Aide à la décision clinique", "IA documents & remboursements", "Confidentialité patient", "Insights prédictifs"],
+        "slug": "pulse",
+        "external": false,
+        "url": "",
+        "overview": "Pulse augmente les équipes cliniques et opérationnelles avec de l'aide à la décision et de l'intelligence documentaire, transformant dossiers, remboursements et imagerie en soins plus rapides et plus sûrs. Souveraineté des données et confidentialité patient intégrées par conception."
       },
       {
         "name": "Forge",
         "category": "Industrie & production",
         "tagline": "Zéro arrêt imprévu",
         "description": "Maintenance prédictive, contrôle qualité par vision et pilotage de la performance en temps réel pour les usines connectées.",
-        "features": ["Maintenance prédictive", "Contrôle qualité par vision", "TRS en temps réel", "Intégration IoT"]
+        "features": ["Maintenance prédictive", "Contrôle qualité par vision", "TRS en temps réel", "Intégration IoT"],
+        "slug": "forge",
+        "external": false,
+        "url": "",
+        "overview": "Forge connecte l'atelier pour anticiper les pannes, contrôler la qualité par vision et piloter la performance en temps réel. Maximisez le TRS et tendez vers zéro arrêt imprévu."
       },
       {
         "name": "Prism",
         "category": "Commerce & retail",
         "tagline": "Personnaliser à grande échelle",
         "description": "Un moteur de personnalisation et de merchandising qui adapte chaque expérience, optimise les prix et équilibre les stocks en temps réel.",
-        "features": ["Moteur de recommandation", "Tarification dynamique", "Optimisation des stocks", "Vue client 360"]
+        "features": ["Moteur de recommandation", "Tarification dynamique", "Optimisation des stocks", "Vue client 360"],
+        "slug": "prism",
+        "external": false,
+        "url": "",
+        "overview": "Prism personnalise chaque point de contact client et optimise le merchandising en temps réel. Recommandation, tarification dynamique et intelligence des stocks travaillent ensemble pour augmenter conversion, panier moyen et marge."
       },
       {
         "name": "Helix",
         "category": "RH & talents",
         "tagline": "Vos talents, pilotés intelligemment",
         "description": "RH, paie et intelligence des compétences unifiées pour planifier, développer et fidéliser les talents dans toute l'organisation.",
-        "features": ["RH & paie", "Intelligence des compétences", "Planification des effectifs", "Fidélisation des talents"]
+        "features": ["RH & paie", "Intelligence des compétences", "Planification des effectifs", "Fidélisation des talents"],
+        "slug": "helix",
+        "external": false,
+        "url": "",
+        "overview": "Helix unifie RH, paie et intelligence des compétences dans une seule plateforme. Planifiez les effectifs, développez les talents et anticipez les départs grâce à la donnée — pour des décisions RH aussi rigoureuses que financières."
+      },
+      {
+        "name": "Scorify",
+        "category": "Recrutement & IA",
+        "tagline": "Recrutement intelligent, zéro tableur",
+        "description": "Une plateforme de recrutement IA qui transforme 40 heures de tri de CV en 10 minutes : import de CV en masse, scoring et classement des candidats selon vos critères, et questions d'entretien générées automatiquement.",
+        "features": ["Scoring de CV par IA", "Import en masse", "Shortlists classées", "Workflow tout-en-un"],
+        "slug": "scorify",
+        "external": true,
+        "url": "https://thescorify.com",
+        "overview": "Scorify est une plateforme de recrutement propulsée par l'IA pour les équipes agiles. Importez les CV en masse, laissez l'IA scorer et classer chaque candidat selon vos critères en quelques secondes, générez des questions d'entretien et collaborez — un recrutement intelligent, sans tableurs."
       }
     ]
   },
@@ -272,7 +330,7 @@
       "hero": {
         "tag": "Produits",
         "title": "Une suite de logiciels IA-natifs",
-        "subtitle": "Dix produits édités par Beyond Expertise, pensés pour fonctionner ensemble et augmenter chaque métier."
+        "subtitle": "Onze produits édités par Beyond Expertise, pensés pour fonctionner ensemble et augmenter chaque métier."
       }
     },
     "solutions": {

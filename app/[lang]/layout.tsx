@@ -6,6 +6,7 @@ import { getDictionary } from "@/i18n/dictionaries";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { ScrollProgress } from "@/components/motion/ScrollProgress";
+import { VersionTheme } from "@/components/VersionTheme";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -60,6 +61,7 @@ export default async function RootLayout({
   return (
     <html lang={params.lang} className={`${inter.variable} ${spaceGrotesk.variable} ${sora.variable}`}>
       <body className="font-sans antialiased">
+        <VersionTheme />
         <ScrollProgress />
         <Header dict={dict} lang={params.lang} />
         <main className="relative z-[2]">{children}</main>

@@ -10,7 +10,7 @@ export default async function ProductsPage({ params }: { params: { lang: Locale 
   return (
     <>
       <PageHero tag={h.tag} title={h.title} subtitle={h.subtitle} />
-      <Products dict={dict} withHeader={false} />
+      <Products dict={dict} lang={params.lang} withHeader={false} />
       <Capabilities dict={dict} />
       <FinalCta dict={dict} lang={params.lang} />
     </>

@@ -40,6 +40,8 @@ export function HeroSwitcher({ dict, lang }: { dict: Dictionary; lang: Locale })
   const choose = (v: Version) => {
     setVersion(v);
     window.localStorage.setItem(STORAGE_KEY, v);
+    // let VersionTheme (mounted in the layout) re-apply data-theme immediately
+    window.dispatchEvent(new Event("bx-version"));
   };
 
   return (
