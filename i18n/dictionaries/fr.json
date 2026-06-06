@@ -34,7 +34,7 @@
     "stat1Label": "clients en Europe & USA",
     "stat2": "99,98 %",
     "stat2Label": "de disponibilité",
-    "stat3": "4",
+    "stat3": "10",
     "stat3Label": "produits édités"
   },
   "heroV2": {
@@ -62,7 +62,7 @@
   "products": {
     "tag": "Nos produits",
     "title": "Une suite de logiciels IA-natifs",
-    "subtitle": "Quatre produits édités par Beyond Expertise, pensés pour fonctionner ensemble ou séparément.",
+    "subtitle": "Dix produits édités par Beyond Expertise, couvrant tous les domaines et pensés pour fonctionner ensemble ou séparément.",
     "items": [
       {
         "name": "Nova",
@@ -91,6 +91,48 @@
         "tagline": "La confiance au cœur",
         "description": "Gouvernance, sécurité et conformité unifiées pour piloter l'usage de l'IA et des données à l'échelle de l'entreprise.",
         "features": ["Gouvernance de l'IA", "Conformité RGPD", "Audit & traçabilité", "Contrôle d'accès fin"]
+      },
+      {
+        "name": "Flux",
+        "category": "Supply chain & logistique",
+        "tagline": "Planifier, prévoir, livrer",
+        "description": "Une planification de la supply chain pilotée par l'IA qui prévoit la demande, optimise les stocks et orchestre les flux entrepôt et transport de bout en bout.",
+        "features": ["Prévision de la demande", "Optimisation des stocks", "Orchestration WMS & TMS", "Planification par scénarios"]
+      },
+      {
+        "name": "Ledger",
+        "category": "Finance & risque",
+        "tagline": "Une finance qui se défend",
+        "description": "Détection de fraude en temps réel, LCB-FT/KYC et intelligence des risques pour des opérations financières conformes et sécurisées à grande échelle.",
+        "features": ["Détection de fraude", "LCB-FT & KYC", "Analyse des risques", "Reporting réglementaire"]
+      },
+      {
+        "name": "Pulse",
+        "category": "Santé & sciences du vivant",
+        "tagline": "Le soin, augmenté",
+        "description": "Aide à la décision clinique et intelligence documentaire qui transforment les données médicales en soins plus sûrs, plus rapides et respectueux de la vie privée.",
+        "features": ["Aide à la décision clinique", "IA documents & remboursements", "Confidentialité patient", "Insights prédictifs"]
+      },
+      {
+        "name": "Forge",
+        "category": "Industrie & production",
+        "tagline": "Zéro arrêt imprévu",
+        "description": "Maintenance prédictive, contrôle qualité par vision et pilotage de la performance en temps réel pour les usines connectées.",
+        "features": ["Maintenance prédictive", "Contrôle qualité par vision", "TRS en temps réel", "Intégration IoT"]
+      },
+      {
+        "name": "Prism",
+        "category": "Commerce & retail",
+        "tagline": "Personnaliser à grande échelle",
+        "description": "Un moteur de personnalisation et de merchandising qui adapte chaque expérience, optimise les prix et équilibre les stocks en temps réel.",
+        "features": ["Moteur de recommandation", "Tarification dynamique", "Optimisation des stocks", "Vue client 360"]
+      },
+      {
+        "name": "Helix",
+        "category": "RH & talents",
+        "tagline": "Vos talents, pilotés intelligemment",
+        "description": "RH, paie et intelligence des compétences unifiées pour planifier, développer et fidéliser les talents dans toute l'organisation.",
+        "features": ["RH & paie", "Intelligence des compétences", "Planification des effectifs", "Fidélisation des talents"]
       }
     ]
   },
@@ -230,7 +272,7 @@
       "hero": {
         "tag": "Produits",
         "title": "Une suite de logiciels IA-natifs",
-        "subtitle": "Quatre produits édités par Beyond Expertise, pensés pour fonctionner ensemble et augmenter chaque métier."
+        "subtitle": "Dix produits édités par Beyond Expertise, pensés pour fonctionner ensemble et augmenter chaque métier."
       }
     },
     "solutions": {

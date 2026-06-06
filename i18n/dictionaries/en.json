@@ -34,7 +34,7 @@
     "stat1Label": "customers across Europe & USA",
     "stat2": "99.98%",
     "stat2Label": "platform uptime",
-    "stat3": "4",
+    "stat3": "10",
     "stat3Label": "published products"
   },
   "heroV2": {
@@ -62,7 +62,7 @@
   "products": {
     "tag": "Our products",
     "title": "A suite of AI-native software",
-    "subtitle": "Four products published by Beyond Expertise, designed to work together or on their own.",
+    "subtitle": "Ten products published by Beyond Expertise, spanning every domain and designed to work together or on their own.",
     "items": [
       {
         "name": "Nova",
@@ -91,6 +91,48 @@
         "tagline": "Trust at the core",
         "description": "Unified governance, security, and compliance to control AI and data usage across the entire enterprise.",
         "features": ["AI governance", "GDPR compliance", "Audit & traceability", "Fine-grained access"]
+      },
+      {
+        "name": "Flux",
+        "category": "Supply chain & logistics",
+        "tagline": "Plan, predict, deliver",
+        "description": "AI-driven supply chain planning that forecasts demand, optimizes inventory, and orchestrates warehouse and transport flows end to end.",
+        "features": ["Demand forecasting", "Inventory optimization", "WMS & TMS orchestration", "Scenario planning"]
+      },
+      {
+        "name": "Ledger",
+        "category": "Finance & risk",
+        "tagline": "Finance that defends itself",
+        "description": "Real-time fraud detection, AML/KYC, and risk intelligence that keep financial operations compliant and secure at scale.",
+        "features": ["Fraud detection", "AML & KYC", "Risk analytics", "Regulatory reporting"]
+      },
+      {
+        "name": "Pulse",
+        "category": "Healthcare & life sciences",
+        "tagline": "Care, augmented",
+        "description": "Clinical decision support and document intelligence that turn medical data into safer, faster, privacy-first care.",
+        "features": ["Clinical decision support", "Claims & document AI", "Patient data privacy", "Predictive insights"]
+      },
+      {
+        "name": "Forge",
+        "category": "Industry & manufacturing",
+        "tagline": "Zero unplanned downtime",
+        "description": "Predictive maintenance, computer-vision quality control, and real-time performance management for connected factories.",
+        "features": ["Predictive maintenance", "Computer-vision QC", "Real-time OEE", "IoT integration"]
+      },
+      {
+        "name": "Prism",
+        "category": "Commerce & retail",
+        "tagline": "Personalize at scale",
+        "description": "A personalization and merchandising engine that tailors every experience, optimizes pricing, and balances stock in real time.",
+        "features": ["Recommendation engine", "Dynamic pricing", "Inventory optimization", "Customer 360"]
+      },
+      {
+        "name": "Helix",
+        "category": "People & workforce",
+        "tagline": "Your workforce, intelligently managed",
+        "description": "Unified HR, payroll, and skills intelligence to plan, develop, and retain talent across the entire organization.",
+        "features": ["HR & payroll", "Skills intelligence", "Workforce planning", "Talent retention"]
       }
     ]
   },
@@ -230,7 +272,7 @@
       "hero": {
         "tag": "Products",
         "title": "A suite of AI-native software",
-        "subtitle": "Four products published by Beyond Expertise, designed to work together and augment every function."
+        "subtitle": "Ten products published by Beyond Expertise, designed to work together and augment every function."
       }
     },
     "solutions": {

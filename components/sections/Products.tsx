@@ -1,15 +1,46 @@
-import { Sparkles, BarChart3, Workflow, ShieldCheck, Check } from "lucide-react";
+import {
+  Sparkles,
+  BarChart3,
+  Workflow,
+  ShieldCheck,
+  Check,
+  Truck,
+  Landmark,
+  HeartPulse,
+  Factory,
+  ShoppingBag,
+  Users,
+} from "lucide-react";
 import { SectionHeader } from "../SectionHeader";
 import { Reveal } from "../Reveal";
 import { SpotlightCard } from "../motion/SpotlightCard";
 import type { Dictionary } from "@/i18n/types";
 
-const icons = [Sparkles, BarChart3, Workflow, ShieldCheck];
+// one fitting icon per product (Nova, Atlas, Orchestra, Vault, Flux, Ledger,
+// Pulse, Forge, Prism, Helix)
+const icons = [
+  Sparkles,
+  BarChart3,
+  Workflow,
+  ShieldCheck,
+  Truck,
+  Landmark,
+  HeartPulse,
+  Factory,
+  ShoppingBag,
+  Users,
+];
 const accents = [
   "from-violet-glow/20",
   "from-cyan-glow/20",
   "from-fuchsia-500/20",
   "from-emerald-400/20",
+  "from-sky-400/20",
+  "from-amber-400/20",
+  "from-rose-400/20",
+  "from-teal-400/20",
+  "from-indigo-400/20",
+  "from-lime-400/20",
 ];
 
 export function Products({
